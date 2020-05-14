@@ -6,7 +6,6 @@ import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.Matchers.*;
 
 public class RequestTest {
-
     @Test
     public void userInfoTest(){
         when()
