@@ -36,11 +36,11 @@ public class BedPageTest {
     public void testClickOnDoubleBed()
     {
         page.clickOnDoubleBed();
-        /*new WebDriverWait(driver, 60).until(new ExpectedCondition<Boolean>() {
+        new WebDriverWait(driver, 60).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
                 return d.getTitle().toLowerCase().startsWith("двуспальные");
             }
-        });*/
+        });
         System.out.println("Page title is: " + driver.getTitle());
         Assert.assertEquals("Двуспальные кровати - купить по низкой цене в IKEA - IKEA", page.getPageName());
     }
